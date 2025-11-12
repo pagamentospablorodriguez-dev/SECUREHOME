@@ -147,14 +147,7 @@ export default function Product() {
               <div className="mb-8">
                 <p className="text-4xl md:text-5xl font-bold text-gray-900">{t.price}</p>
               </div>
-              <div className="mb-6">
-                <label className="block text-sm font-medium text-gray-700 mb-2">{t.quantity}</label>
-                <div className="flex items-center gap-3">
-                  <Button variant="outline" size="icon" onClick={() => setQuantity(Math.max(1, quantity - 1))} className="h-12 w-12">-</Button>
-                  <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
-                  <Button variant="outline" size="icon" onClick={() => setQuantity(quantity + 1)} className="h-12 w-12">+</Button>
-                </div>
-              </div>
+              
               <Button onClick={() => window.open(CHECKOUT_URL, '_blank')} className="w-full h-14 text-lg font-bold bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-lg">
                 🔥 {t.buyNow}
               </Button>
@@ -311,5 +304,6 @@ export default function Product() {
   );
 
 }
+
 
 
