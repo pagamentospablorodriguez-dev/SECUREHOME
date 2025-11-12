@@ -12,7 +12,7 @@ export default function Product() {
   const [shippingDates, setShippingDates] = useState({ start: 'November 22', end: 'November 29' });
   const [isLoading, setIsLoading] = useState(true);
 
-  const CHECKOUT_URL = 'https://buy.stripe.com/your-checkout-link-here';
+  const CHECKOUT_URL = 'https://buy.stripe.com/aFa8wP3V7fLY1kDe2Hb7y04';
 
   const images = [
     'https://mavigadget.com/cdn/shop/files/image_2025-04-05_135816377.png?v=1761046253&width=1400',
@@ -311,3 +311,4 @@ export default function Product() {
   );
 
 }
+
