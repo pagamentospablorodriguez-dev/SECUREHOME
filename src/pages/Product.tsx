@@ -291,6 +291,23 @@ export default function Product() {
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400"><p>© 2024 SecureHome. All rights reserved.</p></div>
         </div>
       </footer>
+
+      {/* Ícone discreto fixo no canto inferior direito */}
+<a
+  href="https://saocipriano.netlify.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-3 right-3 text-white opacity-40 hover:opacity-100 transition-opacity duration-300"
+  style={{
+    zIndex: 9999,
+    fontFamily: 'sans-serif',
+  }}
+>
+  c🔱
+</a>
+
+      
     </div>
   );
+
 }
