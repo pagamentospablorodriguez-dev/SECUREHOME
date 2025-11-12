@@ -281,7 +281,7 @@ export default function Product() {
             <div><h4 className="font-semibold mb-4">Information</h4><ul className="space-y-2 text-gray-400"><li className="hover:text-white cursor-pointer">About Us</li><li className="hover:text-white cursor-pointer">Shipping</li><li className="hover:text-white cursor-pointer">Terms</li><li className="hover:text-white cursor-pointer">Privacy</li></ul></div>
             <div><h4 className="font-semibold mb-4">Social Media</h4><ul className="space-y-2 text-gray-400"><li className="flex items-center gap-2 hover:text-white cursor-pointer"><Youtube className="w-5 h-5" />YouTube (40K)</li></ul></div>
           </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400"><p>© 2024 SecureHome. All rights reserved.</p></div>
+          <div className="border-t border-gray-800 pt-8 text-center text-gray-400"><p>© 2025 SecureHome. All rights reserved.</p></div>
         </div>
       </footer>
 
@@ -304,6 +304,7 @@ export default function Product() {
   );
 
 }
+
 
 
 
